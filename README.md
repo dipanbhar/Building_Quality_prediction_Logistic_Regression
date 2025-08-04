@@ -6,13 +6,11 @@ This project uses Logistic Regression to classify the quality of buildings based
 - **Algorithm**: Logistic Regression
 - **Purpose**: Binary classification (1 = Good, 0 = Bad)
 
-## 📂 Project Structure
-
-## 🛠️ Requirements
-
 ## Install dependencies:
 ```bash
 pip install pandas scikit-learn joblib
 ```
 ## Running the Model
+```bash
 python building_quality_model.py
+```
