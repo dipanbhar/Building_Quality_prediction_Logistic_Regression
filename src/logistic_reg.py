@@ -14,11 +14,11 @@ print(data.head())
 
 # Assume the dataset has features and a 'quality' column where 1 = good, 0 = bad
 X = data.drop('quality', axis=1)
-#print("---------------x--------->\n",X)
+
 y = data['quality']
 
 # Split data into training and testing sets
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.6, random_state=92)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # Create logistic regression model
 model = LogisticRegression()
